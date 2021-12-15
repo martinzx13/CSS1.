@@ -1,3 +1,5 @@
 # CSS1.
 Front web page development
-Desarrollo 
+
+This document have the front part of a 
+Garage Sale
