@@ -46,22 +46,23 @@
         font-weight: bold;
       }
       .order {
+        background-color: var();
         display: grid;
-        grid-template-columns: auto 1fr;
+        grid-template-columns: auto 1fr auto;
         gap: 100px;
         align-items: center;
         padding: 0;
-        margin-bottom: 24px;
+        margin-bottom: 12px;
       }
       .order p:nth-child(1) {
         display: flex;
         flex-direction: column;
       }
-      .order p:nth-child(2) {
+      /* .order p:nth-child(2) {
         color: var(--very-light-pink);
         font-weight: bold;
-      }
-      .order p span:nth-child(1) {
+      } */
+      .order p {
         color: var(--black);
         font-weight: bold;
       }
@@ -80,7 +81,32 @@
               <span class="date">04.25.2021</span>
               <span class="articles">6 articles</span>
             </p>
-            <p class="price">$120.0</p>
+            <p>$120.0</p>
+            <img src="./icons/flechita.svg" alt="arrow" />
+          </div>
+          <div class="order">
+            <p>
+              <span class="date">04.25.2021</span>
+              <span class="articles">6 articles</span>
+            </p>
+            <p>$120.0</p>
+            <img src="./icons/flechita.svg" alt="arrow" />
+          </div>
+          <div class="order">
+            <p>
+              <span class="date">04.25.2021</span>
+              <span class="articles">6 articles</span>
+            </p>
+            <p>$120.0</p>
+            <img src="./icons/flechita.svg" alt="arrow" />
+          </div>
+          <div class="order">
+            <p>
+              <span class="date">04.25.2021</span>
+              <span class="articles">6 articles</span>
+            </p>
+            <p>$120.0</p>
+            <img src="./icons/flechita.svg" alt="arrow" />
           </div>
         </div>
       </div>
